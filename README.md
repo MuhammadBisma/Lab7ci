@@ -20,7 +20,7 @@ judul VARCHAR(200) NOT NULL,
 isi TEXT,
 gambar VARCHAR(200),
 status TINYINT(1) DEFAULT 0,
-slug VARCHAR(200),
+slug VARCHAR(200), 
 PRIMARY KEY(id)
 );
 ```
